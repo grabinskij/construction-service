@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow"/>
     <title>Just another WordPress site</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -46,7 +47,15 @@ img.emoji {
 
 <body>
     <header class="header">
-        <div class="header__inner">
+        <div style="position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: 9999;">
+            <ul style="display: flex; justify-content: center; align-items: center; background-color: #D5D9DC; margin: 0; padding: 0 20px;">
+                <li style="margin-right: 8px; list-style-type: none;" onmouseover="this.querySelector('a').style.color='blue'" onmouseout="this.querySelector('a').style.color='inherit'"><a href="legal-notice.html" style="text-decoration: none; color: inherit;">Legal Notice</a></li>
+                <li style="margin-right: 8px; list-style-type: none; color: #a09d9d;">|</li>
+                <li style="margin-right: 8px; list-style-type: none;" onmouseover="this.querySelector('a').style.color='blue'" onmouseout="this.querySelector('a').style.color='inherit'"><a href="privacy-policy.html" style="text-decoration: none; color: inherit;">Privacy Policy</a></li>
+            </ul>
+        </div>
+    
+        <div class="header__inner" style="margin-top: 20px;">
             <div class="header__inner-wrapper">
             <div class="header__name">
                 Houses from a to z            </div>
