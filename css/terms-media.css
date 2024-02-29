@@ -9,18 +9,18 @@
 
 @media(max-width: 540px){
     .terms-container {
-        padding: 0 10px 0 20px;
+        padding: 0 5px 0 10px;
     }
     .terms-container h1 {
         text-align: center;
         font-size: 1.6rem;
     } 
-    .terms-container p {
-        font-size: 16px;
-        margin-bottom: 15px;
+    .terms-container h2{
+        font-size: 1.4rem;
     }
-    .terms-box{
-        display: block;
+    .terms-container p {
+        font-size: 14px;
+        margin-bottom: 15px;
     }
     .home-button{
         margin-bottom: 50px;
