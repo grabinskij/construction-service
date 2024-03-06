@@ -110,7 +110,7 @@ ul#nav.nav:first-child{
    margin-top: 45px;
    margin-left: -200px;
    padding-right: 40px;
-   z-index: 99999;
+   z-index: 990;
 }
 .header__inner-wrapper{
     display: flex;

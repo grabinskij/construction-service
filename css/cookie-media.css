@@ -1,0 +1,35 @@
+@media(max-width: 767px){
+    .cookie-popup {
+      width: 90%;
+    }
+    .cookie-header h2{
+      font-size: .8rem;
+    }
+    .cookie-popup-text{
+      font-size: .8rem;
+    }
+  }
+  
+  @media(max-width: 540px){
+    .change-consent-banner{
+      bottom: 6px;
+      right: 6px;
+    }
+    .custom-cookie-svg{
+      width: 18px;
+      height: 18px;
+    }
+  }
+  
+  @media(max-width: 414px){
+    .cookie-lang-btn{
+        display: block;
+        margin: 10px auto 10px auto; 
+    }
+  }
+  
+  @media(max-width: 400px){
+    .cookie-link{
+        margin: 0 2px;
+      }
+  }
