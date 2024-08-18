@@ -1,6 +1,6 @@
 # 🏗️ Construction Service Landing Page
 
-Welcome to the Construction Service Landing Page repository! This project features a sleek, modern landing page designed for real estate companies and construction services. Originally created with WordPress, this site has been converted to a static website using a plugin for improved performance and easier deployment.
+Welcome to the **Construction Service Landing Page** repository! This project features a sleek, modern landing page designed for real estate companies and construction services. Originally created with WordPress, this site has been converted to a static website using a plugin for improved performance and easier deployment.
 
 <br>
 
